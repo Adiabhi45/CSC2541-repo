@@ -1,7 +1,7 @@
 
 import torch
 import numpy as np
-from utils import all_metrics, print_metrics
+from utils import all_metrics, print_metric
 
 
 def train(args, model, optimizer, scheduler, epoch, gpu, data_loader):
